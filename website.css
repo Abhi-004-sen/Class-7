@@ -1,0 +1,27 @@
+*{
+       overflow-x: hidden;
+}
+nav{
+      display: flex;
+       align-items: center;
+       justify-content: space-around;
+      
+}
+nav .main-nav-container  {
+      display: flex; 
+      column-gap: 50px;
+      cursor: pointer;
+}
+nav .main-nav-container :hover{
+      color: blue;
+}
+.logo-container{
+      display: flex;
+     column-gap: 30px;
+}
+.logo-container :hover{
+      color: blue;
+}
+.phone-img img{
+      width: 100vw;
+}
